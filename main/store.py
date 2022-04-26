@@ -15,7 +15,7 @@ def storeCategory(msg):
     # Looping throgh the array of produts and making it an indivdual button each
     for i in prod:
         key = types.InlineKeyboardButton(
-            text=f"{i}", callback_data="Listed Item", url="google.com")
+            text=f"{i}", callback_data="Listed Item")
         buttons.append(key)
 
         keyboard.add(key)
